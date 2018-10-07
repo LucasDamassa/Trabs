@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial</title>
+</head>
+<body style="background-color: black">
+<font face="arial" color="gween">
+<h1 align="center">Tutorial de condição:</h1>
+<pre><p style="font-size: 20px">Linguagem C: estruturas condicionais: <br>
+	A instrução IF é a estrutura de teste mais básica e é encontrada em todas as linguagens
+	(com sintaxes diferentes).Ela permite executar uma série de instruções caso uma condição se realize.A sintaxe desta expressão é a seguinte:
+	<div style="background-color: blue;width: 50%"><code style="font-size: 20px">if (condição realizada) {
+lista de instruções;
+}</pre>
+<p>Observações: <br>
+A condição deve ficar entre parênteses. É possível definir várias condições a serem cumpridas com os conectores E e OU (&& e ||). 
+
+Por exemplo, a seguinte instrução testa se as duas condições são verdadeiras: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">if ((condição1)&&(condição2))
+</pre> </code> </div>
+<p>A seguinte instrução executará as instruções se uma das duas condições for verdadeira: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">if ((condição1)||(condição2)) </code> </div>
+<p>Se houver apenas uma instrução, as chaves são desnecessárias. 
+
+As instruções situadas no bloco que segue o else são as instruções que serão executadas se a(s) condição(ões) não forem realizadas. </p>
+<p>A instrução IF... ELSE: <br>
+A instrução IF em sua forma básica só testa uma condição. Na maioria das vezes, gostaríamos de poder escolher as instruções a serem executadas em caso do não cumprimento da condição. 
+
+A expressão IF... ELSE permite executar outra série de instruções em caso do não cumprimento da condição. A sintaxe desta expressão é a seguinte: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">if (condição realizada) { <br>
+lista de instruções <br>
+} <br>
+else { <br>
+outra série de instruções <br>
+} </code> </div>
+<p>Uma maneira mais rápida de fazer um teste
+É possível fazer um teste com uma estrutura muito mais leve, graças à seguinte estrutura: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">(condição) ?< /bold> instrução se verdadeira: instrução se falsa< /i></code> </div>
+<p>Observações: <br>
+A condição deve ficar entre parênteses. Quando a condição for verdadeira, a instrução da esquerda será executada. Quando a condição for falsa, a instrução da direita será executada. Além de ser executada, a estrutura ?: retorna o valor resultante da instrução executada. Assim, esta forma ?: é frequentemente utilizada como segue: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">posição = ((Antes == 1) ? contador+1: contador-1); </code> </div>
+<p>A instrução SWITCH: <br>
+A Instrução switch efetua vários testes de valores sobre o conteúdo de uma mesma variável. Esta conexão condicional simplifica muito o teste de vários valores de uma variável, pois esta operação teria sido complicada (mas possível) com ifs imbricados. Sua sintaxe é a seguinte: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">switch (variável) { <br>
+
+casa Valor1: <br>
+Lista d instruções; <br>
+
+break; <br>
+
+casa Valor2 : <br>
+Lista d instruções; <br>
+
+break;</ bold> <br>
+
+casa Valores... : <br>
+Lista d instruções; <br>
+
+Break; <br>
+
+default: <br>
+
+Lista d instruções; <br>
+
+} <br> </code> </div>
+<p>Os parênteses após a palavra-chave switch indicam uma expressão cujo valor é testado, sucessivamente, para cada uma das case. Quando a expressão testada é igual a um dos seguintes valores seguindo um case, a lista de instrução que vem depois, é executada. A palavra-chave break indica a saída da estrutura condicional. A palavra-chave default precede a lista de instruções, que será executada se a expressão nunca for igual a um dos valores. 
+
+Não se esqueça de inserir instruções break entre cada teste; esse tipo de esquecimento é difícil de ser detectado pois nenhum erro é assinalado. Na verdade, ao omitir o break, a execução continuará nos blocos seguintes. 
+
+Este fato também pode ser usado criteriosamente, a fim de executar as mesmas instruções para os diferentes valores consecutivos; assim, podemos colocar várias casas antes do bloco: </p>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">switch(variável) <br>
+{ <br>
+case 1: <br>
+case 2: <br>
+{ instruções executadas para a variável = 1 ou para a variável = 2 } <br>
+break; <br>
+case 3: <br>
+{ instruções executadas para a variável = 3 apenas } <br>
+break; <br>
+default: <br>
+{ instruções executadas para qualquer outro valor de variável } <br>
+} <br>
+</ sample>  <br>
+
+<body>
+
+</body>
+</html>

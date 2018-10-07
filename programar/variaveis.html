@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial</title>
+</head>
+<body style="background-color: black">
+<font face="arial" color="gween">
+		<h1 align="center">Tutorial de variáveis:</h1>
+		<pre><p style="font-size: 20px">Variáveis:
+Variáveis são endereços de mémoria na qual podemos atribuir ou mudar o valor.
+
+A declaração da variável deve proceder da seguinte maneira:
+
+1º especificar o tipo de variável
+
+2º nomear a variável
+
+* Não podemos esquecer que o C / C++ é case sensitive, ou seja, ele diferencia as letras maiúsculas das minúsculas.
+
+Por exemplo, x não é a mesma coisa de X.
+
+Um outro cuidado que devemos ter é não começar uma variável por número, mas podemos terminá-la.
+
+Exemplo: É errado declarar 2x, mas podemos declarar x2 ou _2x.
+
+Como uma última precaução, não podemos usar espaços, pois o compilador pode entender como sendo outra váriavel não separada por vírgula e acusará um erro.
+No lugar do espaço, pode-se usar underline (_).
+
+Exemplo: É errado digitar resultado da raiz, mas é correto, resultado_da_raiz.
+
+Tipos de variáveis
+A linguagem C aceita os tipos mais comuns de variáveis e com possibilidade de modificar o alcance.
+
+Para saber a diferença entre os tipos de dados consulte a seção algoritmo no link Tipo de dados comuns.
+
+O primeiro tipo é o inteiro. Declara-se como int nomedavariável.
+
+O tipo inteiro em C/C++ é uma variável de 16 bits (2 btyes) e tem o alcance entre -32768 a +32767.
+
+O segundo é o inteiro longo. Declara-se como long int nomedavariável.
+
+Ele é uma melhoria do inteiro comum, pois dobra o número de bits aumentado considerávelmente seu alcance, que aqui fica entre -2147483648 a +2147483647.
+
+O outro tipo é o real ou decimal, que também chamamos de ponto flutuante.
+
+Declara-se como float nomedavariável.
+
+O tipo flutuante é uma variável que tem uma precisão de 7 digitos, consome 4 bytes de memória assim como o inteiro longo e tem um alcance de 1E-36 a 1E+36
+
+Mais um tipo é uma melhoria do ponto flutuante, o dobro. Declaramos double nomedavariável.
+
+O double consome incríveis 8 bytes de memória para o seu armazenamento.
+Esse consumo é explicado pela alta precisão de seu número (cerca de 14 dígitos após a vírgula) e tem um alcance imenso que vai de 1E-303 a 1E+303.
+
+Se você não conhece número científico
+isso seria como se depois do número 1 tivessem mais uma seqüência de 303 números zeros
+nem sei se existe uma palavra que descreva tamanho número.
+
+O último tipo, e talvez o mais complexo, é o caracter.
+O caracter serve tanto para descrever um símbolo como também pode retornar um inteiro 
+pois ele baseia-se na tabela ASCII. Ou seja
+se declararmos uma variável de caracter podemos fazer tanto mostrar na saída a letra A como também 65, seu número da tabela ASCII.
+
+Declaramos como char nomedavariável.
+Apesar de letras consumirem 1 byte teoricamente, os caracteres em C/C++ são baseados
+como já foi dito, na tabela ASCII, onde cada letra tem 2 bytes.
+Isso foi necessário para que conseguissemos usar letras de linguagens latinas que contém acentos.
+Seu total é 256 divididos em dois: 127 positivos
+onde praticamente estão todas as letras necessárias; e 128 negativos onde encontramos muitos símbolos matemáticos e letras acentuadas.
+Trataremos melhor a questão de caracteres
+tabela ASCII e corrente de caracteres (string) em páginas adiante.</p> </pre>
+<h1>Exemplos:</h1>
+<div style="background-color: blue;width: 50%"><code style="font-size: 20px">
+int a,b, SomaGeral; <br>
+a = 3; // a recebe o valor 3 <br>
+b = a * 2; // b recebe o dobro do valor de a <br> 
+c = a + b + 2; // c recebe 11</code> </div> 
+</body>
+</html>
