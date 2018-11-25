@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/bg.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+label{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#box{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #e5e5e7;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+
+.logo{
+    background: url(../img/logo.png);
+    width: 476px;
+    height: 211px;
+    margin-left: 10px;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+input[type=submit]:hover{
+    opacity: 0.9;
+}
+
+.box-result{
+    width: 98%;
+    height: 60px;
+    background: white;
+    padding: 5px;
+    border: solid #cccccc 1px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 4px; 
+}
+
+h4.tx1{
+    font-family: 'Roboto', sans-serif;
+    color: #7f7f7f;
+}
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #b61818;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b61818;  
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8a1818;  
+}
