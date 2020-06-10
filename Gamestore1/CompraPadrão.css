@@ -1,0 +1,14 @@
+/* Formatação da tabela */
+table{
+  margin-right:auto;
+  margin-left: auto;
+}
+table,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+    padding: 20px;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+/* Fundo da página*/
+body{
+    background-image:url(imgOW/OW.jpg);
+    min-height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+/* Textos da página*/
+h1#h1{
+    color: orange; 
+    text-align:left; 
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
+    }
+p#p1{
+    color: orange;  
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Acme', sans-serif;

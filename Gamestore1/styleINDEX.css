@@ -1,0 +1,57 @@
+/* Formatação da tabela*/
+table
+{
+    width:80%;
+    height:50%;
+    margin-right:auto; 
+    margin-left:auto; 
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+    color: limegreen;
+    font-weight: bold;
+    text-align: justiy;
+}
+table#t01 tr:nth-child(even) {
+    background-color: darkslategray;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: darkslategray;
+}
+table#t01 th {
+    background-color: black;
+    color: #fff;
+}
+table#t01{
+  opacity: 0.75;
+  filter: alpha(opacity=50);
+}
+/* Fundo da página*/
+body {
+  background-image:url(imgINDEX/logo2.jpg);
+  background-size: 100% 100%;
+  min-height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Textos da página*/
+h1,h2{
+  color: orange;  
+  font-size: 32px;
+  font-family: Monoton;
+  text-align: center;
+}
+a{
+  color: orange;
+}
+#t02{
+  text-align: justify;
+}

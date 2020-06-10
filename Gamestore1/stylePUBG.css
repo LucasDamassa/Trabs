@@ -1,0 +1,25 @@
+/* Fundo da página*/
+body{
+    background-image:url(imgPUBG/pubg1.jpg);
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+/* Textos da página*/
+h1#h1{
+    color: orange; 
+    text-align:left; 
+    font-size: 40px;
+    font-family: 'Monoton',cursive;
+    }
+#p1{
+    color: orange;  
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    }
